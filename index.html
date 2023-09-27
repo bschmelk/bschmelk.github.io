@@ -1,16 +1,104 @@
-<html>
-<head>
-	<title>Get On The Web!</title>
-</head>
-<body>
-	<h3>Name: Ben Schmelkin</h3>
-        <h3>Major: Computer Science</h3>
-        <h3>IP: 73.38.222.87</h3>
-        <h3>Grew Up: New York City</h3>
-        Something no one would expect about me: I've been playing guitar for 15 years
-        <br><br>
-        My Fav Place:
-        <br>
-        <img src="hobbyhill.jpeg">
-</body>
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                <title>WEpair</title> 
+                <!-- Move this -->
+                <link rel="stylesheet" type="text/css" href="style.css" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+                <style>
+                        table {
+                                width: 100%;
+                                border-collapse: collapse;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                        }
+                        td {
+                                padding-left: 5%;
+                                padding-right: 5%;
+                                text-align: center;
+                        }
+
+                        img.test-img{
+                                height: 200px;
+                                
+                        }
+
+                        img.logo-img {
+                                width: 100%;
+                                height: auto;
+                                display: flex;
+                                margin: 25%;
+                        }
+
+                        .logo-div {
+                                width: 100%;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                        }
+
+                        .intro-div {
+                                padding-top: 10px;
+                                padding-bottom: 50px;
+                        }
+
+                        h2.intro-h2 {
+                                margin-bottom: 50px;
+                        }
+
+                        p.caption {
+                                text-align: center;
+                                white-space: normal;
+                                word-wrap: break-word;
+                        }
+                </style>
+        </head>
+
+        <body>
+                <div class="nav-bar">
+                        <ul class="nav-list">
+                                <li class="nav-item"><a href="index.html">Home</a></li>
+                                <li class="nav-item"><a href="how-it-works.html">How It Works</a></li>
+                                <li class="nav-item"><a href="schedule-a-repair.html">Schedule A Repair</a></li>
+                        </ul>
+                </div>
+
+                <div class="main-content">
+                        <div class="intro-div">
+                                <h1 class="intro-h1">Welcome to <i>WEpair</i> the first pay-it-forward device repair store</h1>
+                                <div class="logo-div">
+                                        <img src="wepair.png" alt="Image 1" class="test-img">
+                                </div>
+                                <h2 class="intro-h2">Learn more about what we do <a class="link" href="how-it-works.html">here</a> or schedule a repair <a class="link" href="schedule-a-repair.html">here</a></h2>   <!-- Learn more about what we do! -->
+                        </div>
+                        <div>
+                                <table>
+                                        <tr>
+                                        <td>
+                                                <img src="noah-phone.png" alt="Image 1" class="test-img">
+                                                <p class="caption">THANK YOU WEPAIR! Super easy and a great way to pay back to the community! - Noah</p>
+                                        </td>
+                                        <td>
+                                                <img src="noah-phone.png" alt="Image 2" class="test-img">
+                                                <p class="caption">Apple tried to charge me 500$ to fix my phone. WEpair saved my life! - Ben</p>
+                                        </td>
+                                        <td>
+                                                <img src="noah-phone.png" alt="Image 3" class="test-img">
+                                                <p class="caption">They didn't only fix my computer, but now I know how to do it too! - Zack</p>
+                                        </td>
+                                        </tr>
+                                </table>
+                        </div>
+                </div>
+                <footer>
+                        <div class="footer-div">
+                                <ul class="footer-list">
+                                        <li class="footer-item"><p>email: contact@wepair.com</p></li>
+                                        <li class="footer-item"><p>phone: 917-555-1358</p></li>
+                                        <li class="footer-item"><p>&copy; 2023 WEpair</p></li>
+                                </ul>
+                        </div>
+                </footer>
+        </body>
 </html>
